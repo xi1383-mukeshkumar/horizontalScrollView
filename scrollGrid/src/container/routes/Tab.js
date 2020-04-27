@@ -33,8 +33,6 @@ export default class Tab extends Component {
         }}>
         <tab.Screen
           options={{
-            tabBarLabel: 'Sleep',
-
             tabBarIcon: ({focused}) =>
               this.options(
                 focused ? Images.home_selected : Images.home_unselected,
