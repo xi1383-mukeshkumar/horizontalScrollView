@@ -16,6 +16,7 @@ export default StyleSheet.create({
     borderWidth: 1,
     borderRadius: 20,
     paddingLeft: 45,
+    borderColor: COLOR.disableButtonColorWithHalfOpacity,
   },
   iconViewStyle: {
     backgroundColor: COLOR.whiteColor,
